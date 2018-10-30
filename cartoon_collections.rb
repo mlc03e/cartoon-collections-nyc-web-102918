@@ -18,7 +18,9 @@ end
 
 def find_the_cheese(food)
     cheese_types = ["cheddar", "gouda", "cameber"]
-    return food if food.include?(cheese_types) == true
+    food.find
+    if food.include?(cheese_types) == true
+      return food 
   end
   
 
